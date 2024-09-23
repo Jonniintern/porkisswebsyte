@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORKY ISLAND</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
+    <link rel="shortcut icon" href="./myicon.ico" type="image/x-icon" />
+    <meta name="description" content="Porky Island" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/98mprice/PSone.css@master/PSone.min.css"
+    />
+
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="body2">
+      <p class="header-text">WEN MINT: TBA</p>
+      <img
+        onclick="before(), playbeat();"
+        src="./512c.png"
+        class="logoimg movieimg"
+        alt=""
+      />
+      <div class="window" style="margin: 32px; width: 250px">
+        <div class="title-bar">
+          <div class="title-bar-text">PORKY ISLAND</div>
+
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button
+              aria-label="Close"
+              onclick="before(), closewindow();"
+            ></button>
+          </div>
+        </div>
+        <button type="button" class="btn success">4111 PCS</button>
+        <div class="window-body">
+          <p>Solana - Fall 2024</p>
+          <section class="field-row" style="justify-content: flex-end">
+            <button onclick="before(), closewindow();">OK</button>
+            <button onclick="before(), closewindow();">Cancel</button>
+          </section>
+        </div>
+      </div>
+      <div class="background--custom">
+        <div class="topshelf">
+          <div class="some">
+            <button type="button" class="btn error movieimg">DISCORD</button
+            ><button type="button" class="btn warning movieimg">
+              X/TWITTER
+            </button>
+            <!-- buttons split with splitting.js to animate the characters sequentially
+              ! add a class of selection to the selected button
+              ! add a class to match the keycode being pressed (arrow up, right, down, left)
+            -->
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="midshelf">
+            <img onclick="before();" src="./01nft.png" id="myImage" alt="" />
+            <button class="start selection top left" onclick="before();">
+              MORE
+            </button>
+            <button class="load top right" onclick="afterr(), playbeat() ;">
+              NEXT
+            </button>
+            <button class="options down" onclick="playbeat();">SOUND</button>
+            <audio id="audio" src="./beats/01.mp3"></audio>
+          </div>
+        </div>
+        <a href="https://lab.bangr.io">
+          <img src="./bngr02.png" class="bangrlinkimg movieimg" alt="" />
+        </a>
+      </div>
+      <div id="myDIV"></div>
+      <p class="header-text">300 traits +</p>
+      <p class="header-text">customize & animate</p>
+    </div>
+  </body>
+</html>
