@@ -1,4 +1,4 @@
-/* .background--custom {
+/* .ackground--custom {
   background: linear-gradient(90deg, #ff0000, #fff200, #ff0000);
   background-size: 300% 300%;
   animation: gradient 1s alternate infinite;
@@ -32,7 +32,7 @@ body {
   align-items: center;
   min-height: 100vh;
   justify-content: space-evenly;
-  background: linear-gradient(90deg, #ff0000, #fff200, #ff0000);
+  background: linear-gradient(90deg, #01ca6a, #fff200, #01ca6a);
   background-size: 300% 300%;
   animation: gradient 1s alternate infinite;
   color: #ffe349;
@@ -232,7 +232,7 @@ use the color of the background to have the rectangle merge with the underlying 
 #myDIV {
   width: 300px;
   height: 200px;
-  border: 1px solid black;
+  border: 8px solid black;
   background-image: url("./traits.gif");
   background-position: top left;
   animation: mymove 5s infinite;
