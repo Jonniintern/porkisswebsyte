@@ -47,7 +47,6 @@ body {
   justify-content: space-evenly;
   animation: gradient 10s step-end infinite;
   background-image: url(./talkingbg.gif);
-  z-index: -1;
   border: solid black 10px;
   color: #ffe349;
 }
@@ -75,8 +74,6 @@ body {
     margin-left: 250px;
   }
   .midshelf img {
-    position: fixed;
-    z-index: -1;
   }
 }
 /* have the svg occupy a large portion of the viewport's width */
@@ -84,8 +81,6 @@ svg {
   width: 90vw;
   max-width: 750px;
   height: auto;
-}
-@media screen and (max-width: 400px) {
 }
 /* uppercase the text and increase the space around the letters */
 svg text {
